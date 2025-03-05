@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
+  { name: "Mar", revenue: 6901 },
+  { name: "Apr", revenue: 11035 },
+  { name: "May", revenue: 9288 },
+  { name: "Jun", revenue: 6901 },
+  { name: "Jul", revenue: 11035 },
+  { name: "Aug", revenue: 9288 },
   { name: "Sep", revenue: 6901 },
   { name: "Oct", revenue: 11035 },
   { name: "Nov", revenue: 9288 },
-  { name: "Sep", revenue: 6901 },
-  { name: "Oct", revenue: 11035 },
-  { name: "Nov", revenue: 9288 },
-  { name: "Sep", revenue: 6901 },
-  { name: "Oct", revenue: 11035 },
-  { name: "Nov", revenue: 9288 },
-  { name: "Sep", revenue: 6901 },
-  { name: "Oct", revenue: 11035 },
-  { name: "Nov", revenue: 9288 },
+  { name: "Dec", revenue: 6901 },
+  { name: "Jan", revenue: 11035 },
+  { name: "Feb", revenue: 9288 },
 ];
 
 const RevenueChart = () => {
@@ -25,7 +25,7 @@ const RevenueChart = () => {
       <div className="flex justify-between items-center mb-4">
         <div>
           <h2 className="text-lg font-semibold">Platform value</h2>
-          <p className="text-gray-500">Dribbble ▼</p>
+          <p className="text-gray-500">Deposits / Withdrawls ▼</p>
         </div>
         <div className="flex space-x-2">
           {["Revenue", "Leads", "W/L"].map((tab) => (
