@@ -17,7 +17,7 @@ export default function RevenueSummary() {
           </span>
         </div>
         <p className="text-gray-500 text-sm">
-          vs prev. $501,641.73 Jun 1 - Aug 31, 2023
+          vs prev. $501,641.73 Jan 1 - Dec 31, 2024
         </p>
       </div>
 
