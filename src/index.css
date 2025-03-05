@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+body{
+    background-color: rgb(216, 219, 221);
+
+}
+@import "tailwindcss";
+
+.navSection{
+  width: 100%;
+  height: 80px;
+  padding:0 50px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  max-width:80vw;
+  margin-left: 250px;
+}
+.user{
+  display: flex;
+  gap: 50px;
+}
+/* Sidebar.css */
+
+.sideContainer {
+  display: flex;
+  position: absolute;
+  top:0;
+}
+
+.sidebar {
+  /* background-color: #2c3e50; */
+  background-color:  rgb(216, 219, 221);
+  color: black;
+  height: 100vh;
+  padding: 16px;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  left: 0;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar.closed {
+  width: 60px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.menu-item {
+  list-style: none;
+  margin: 8px 0;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.menu-title:hover {
+  background-color: #34495e;
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 16px;
+}
+
+.submenu-item {
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submenu-item:hover {
+  background-color: #1abc9c;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.main-content {
+  flex: 1;
+}
+/* charts */
+.chart-container {
+  width: 100%;
+  max-width: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+}
+.cardSection{
+  display: flex;
+}
+.smallTable{
+  border: 1px solid gray;
+}
+/* .clientList{
+  margin-top: -200px;
+} */
+.dataTableSec{
+  border: 1px solid gray;
+  width: 65%;
+}
+.megaCardSection{
+  width: 100%;
+  /* position:fixed;
+  top:80px;
+  left: 250px;
+  z-index: 100; */
+}
+.custom-megamenu{
+  background-color: #eaedf0;
+  color: white;
+}
+.subTiles{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.clBg{
+  border: 1px solid yellow;
+  /* background-color: #7ee27a; */
+  /* color: white; */
+}
+.tlBg{
+  border: 1px solid yellowgreen;
+  /* background-color: #6199ce; */
+  /* color: white; */
+}
