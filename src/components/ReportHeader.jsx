@@ -35,7 +35,7 @@ export default function ReportHeader() {
         <span className="text-gray-600 font-medium">Timeframe</span>
         <select className="bg-gray-200 text-gray-700 px-3 py-1 rounded-lg outline-none">
           <option>Feb 1 - Feb 28, 2025</option>
-          <option>Jun 1 - Aug 31, 2023</option>
+          <option>Jan 1 - Jan 31, 2025</option>
         </select>
       </div>
     </div>
